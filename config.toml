@@ -9,7 +9,7 @@ parallel-jobs = 1
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Enable slide to seek' 'Custom branding'"
-patcher-args = "-OappName=YouTube-ReVanced -OiconPath=revanced-logo "
+patcher-args = "-OappName='YouTube ReVanced' -OiconPath=revanced-logo "
 
 
 #[YouTube]
