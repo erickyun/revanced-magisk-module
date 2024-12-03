@@ -11,6 +11,9 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Enable slide to seek' 'Custom branding'"
 patcher-args = "-OappName='YouTube ReVanced' -OiconPath=revanced-logo "
 
+[Spotify]
+enabled = true
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 #[YouTube]
 #build-mode = "both"
