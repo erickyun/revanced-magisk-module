@@ -6,12 +6,16 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
+#[YouTube]
+#version = "auto"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+#included-patches = "'Enable slide to seek' 'Custom branding'"
+#patcher-args = "-OappName='YouTube ReVanced' -OiconPath=revanced-logo "
+
 [YouTube]
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-included-patches = "'Enable slide to seek' 'Custom branding'"
-patcher-args = "-OappName='YouTube ReVanced' -OiconPath=revanced-logo "
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patcher-args = "-e 'Custom branding' -OcustomIcon=revanced-logo -OcustomName=YouTube ReVanced"
 
 [Spotify]
 enabled = true
