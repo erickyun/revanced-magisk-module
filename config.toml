@@ -8,6 +8,5 @@ parallel-jobs = 1
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patcher-args = "-e 'Custom branding' -OcustomIcon=revanced-logo -OcustomName=YouTube ReVanced"
-
+patcher-args = "-e 'Custom branding' -OcustomIcon=revanced-logo -OcustomName='YouTube ReVanced'"
 
