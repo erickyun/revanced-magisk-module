@@ -14,7 +14,12 @@ parallel-jobs = 1
 #patcher-args = "-OappName='YouTube ReVanced' -OiconPath=revanced-logo "
 
 [YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+version = "auto"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+included-patches = "'Enable slide to seek' 'Custom branding'"
 patcher-args = "-e 'Custom branding' -OcustomIcon=revanced-logo -OcustomName=YouTube ReVanced"
 
 [Spotify]
